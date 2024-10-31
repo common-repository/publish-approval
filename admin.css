@@ -1,0 +1,39 @@
+body.ec-approval-not-publishable #delete-action,
+body.ec-approval-not-publishable #publishing-action {
+    display: none;
+}
+
+body.ec-approval-publishable #approval-list {
+    border-bottom: 1px solid #D0D0D0;
+    margin-bottom: 17px;
+}
+
+body.ec-approval-type-available:not(.ec-approval-available) input#approve {
+    cursor: not-allowed;
+}
+
+#approval-list h3 {
+    margin-top: 0;
+    line-height: 30px;
+}
+
+#approval-action,
+#unapproval-action {
+    text-align: right;
+    float: right;
+    line-height: 23px;
+}
+
+table.form-table tr.subrow {
+    background: #E3E3E3;
+}
+
+table.form-table tr.subrow th,
+table.form-table tr.subrow td {
+    vertical-align: middle;
+    padding: 5px;
+}
+
+#publish-approval-settings .header-row {
+    font-size: 30px;
+}

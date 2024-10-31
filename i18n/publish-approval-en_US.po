@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Publish approval\n"
+"POT-Creation-Date: 2018-08-03 07:56+0200\n"
+"PO-Revision-Date: 2018-08-03 07:57+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: index.php:54
+#, php-format
+msgid ""
+"<strong>Publish Approval</strong> has been enabled. <a href=\"%s\">Click "
+"here</a> to configure it."
+msgstr ""
+"<strong>Publish Approval</strong> has been enabled. <a href=\"%s\">Click "
+"here</a> to configure it."
+
+#: src/actions/HandleApproval.php:29
+msgid "Failed to save approval, please try again."
+msgstr "Failed to save approval, please try again."
+
+#: src/actions/HandlePublishCircumvent.php:21
+msgid "Post cannot be published, not enough approvals."
+msgstr "Post cannot be published, not enough approvals."
+
+#: src/actions/HandleUnapproval.php:22
+msgid "Failed to save unapproval, please try again."
+msgstr "Failed to save unapproval, please try again."
+
+#: src/ui/ApprovalBoxes.php:27
+msgid "Unapprove"
+msgstr "Unapprove"
+
+#: src/ui/ApprovalBoxes.php:36 src/ui/ApprovalBoxes.php:45
+msgid "Approve"
+msgstr "Approve"
+
+#: src/ui/ApprovalBoxes.php:55
+msgid "Approvals:"
+msgstr "Approvals:"
+
+#: src/ui/ApprovalBoxes.php:65
+#, php-format
+msgid "<strong>%s</strong> on <i>%s</i>"
+msgstr "<strong>%s</strong> on <i>%s</i>"
+
+#: templates/admin-view.php:24
+msgid "Publish approval"
+msgstr "Publish approval"
+
+#: templates/admin-view.php:26
+msgid ""
+"Select which types of content should require approvals before publish is "
+"available. The ones you enabled will have publishing blocked unless the "
+"specified number of approvals has been gathered."
+msgstr ""
+"Select which types of content should require approvals before publish is "
+"available. The ones you enabled will have publishing blocked unless the "
+"specified number of approvals has been gathered."
+
+#: templates/admin-view.php:48
+msgid "Enable approvals for:"
+msgstr "Enable approvals for:"
+
+#: templates/admin-view.php:67
+msgid "Required approvals:"
+msgstr "Required approvals:"
+
+#: templates/admin-view.php:83 templates/admin-view.php:137
+msgid "Editor:"
+msgstr "Editor:"
+
+#: templates/admin-view.php:90 templates/admin-view.php:144
+msgid "--SELECT--"
+msgstr "--SELECT--"
+
+#: templates/admin-view.php:93 templates/admin-view.php:147
+msgid "Remove"
+msgstr "Remove"
+
+#: templates/admin-view.php:102
+msgid "Add editor"
+msgstr "Add editor"
+
+#: templates/admin-view.php:117
+msgid "Self approval:"
+msgstr "Self approval:"
+
+#: templates/admin-view.php:128
+msgid "Allow authors to approve their own posts."
+msgstr "Allow authors to approve their own posts."
+
+#: templates/admin-view.php:154
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#~ msgid "plugin-description"
+#~ msgstr ""
+#~ "Select which types of content should require approvals before publish is "
+#~ "available. The ones you enabled will have publishing blocked unless the "
+#~ "specified number of approvals has been gathered."
+
+#~ msgid "activation-notice"
+#~ msgstr "activation-notice"
+
+#~ msgid "missing-wpautop-notice"
+#~ msgstr "missing-wpautop-notice"
